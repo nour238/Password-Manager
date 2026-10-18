@@ -3,10 +3,10 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Entry{
+    static List<Entry> entries = new ArrayList<>();
     String name;
     String username;
     String password;
-    static List<Entry> entries = new ArrayList<>();
     public Entry(String name, String username,String password){
         this.name=name;
         this.username=username;
