@@ -9,7 +9,7 @@ public class Input {
     public static void newEntry(Scanner textInput){
         Entry newEntry = Output.getEntry(textInput);
         entries.add(newEntry);
-        Main.main(null);
+        Output.getOperator();
     }
     public static void loadVault(){
 

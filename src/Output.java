@@ -30,7 +30,7 @@ public class Output {
             currentEntry = Input.entries.get(i);
             System.out.println(currentEntry.name + " " + currentEntry.username + " " + currentEntry.password);
         }
-        Main.main(null);
+        getOperator();
     }
     public static Entry getEntry(Scanner textInput){
         System.out.println("What is the Name of the Entry?");
