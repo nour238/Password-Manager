@@ -1,8 +1,8 @@
 import java.util.Scanner;
-public class Output {
+public class menu {
     public static void main() {
     }
-    public static void getOperator(){
+    public static void mainMenu(){
         Scanner textInput = new Scanner(System.in);
         System.out.println("Welcome Back,");
         System.out.println("1. Show Entrys");
