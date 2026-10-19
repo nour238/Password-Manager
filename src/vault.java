@@ -6,6 +6,6 @@ public class vault {
 
     }
     public static void save(){
-
+        System.exit(0);
     }
 }

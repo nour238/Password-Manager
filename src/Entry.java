@@ -21,7 +21,6 @@ public class Entry{
         String password = textInput.nextLine();
         Entry newEntry = new Entry(name,username,password);
         entries.add(newEntry);
-        menu.mainMenu();
     }
     public static void showEntrys(){
         Entry currentEntry = new Entry(null,null,null);
@@ -29,6 +28,5 @@ public class Entry{
             currentEntry = entries.get(i);
             System.out.println(currentEntry.name + " " + currentEntry.username + " " + currentEntry.password);
         }
-        menu.mainMenu();
     }
 }
